@@ -3,4 +3,4 @@ Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Yo
 CODE:
     SELECT CITY
     FROM STATION
-    WHERE CITY LIKE '[aeiou]$';
+    WHERE CITY REGEXP '[aeiou]$';
